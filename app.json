@@ -58,16 +58,6 @@
         "value": "",
         "required": true
       },
-      "STRING_SESSION2": {
-        "description": "حط كود جلسة الحساب المساعد الاحتياطي بايروجرام v1 او اتركها كما هي",
-        "value": "None",
-        "required": false
-      },
-      "STRING_SESSION3": {
-        "description": "حط كود جلسة الحساب المساعد الاحتياطي بايروجرام v1 او اتركها كما هي",
-        "value": "None",
-        "required": false
-      },
       "HEROKU_API_KEY": {
         "description": "مفتاح حساب هيروكو الخاص بك",
         "value": "",
@@ -79,13 +69,13 @@
         "required": false
       },
       "LOG_GROUP_ID": {
-        "description": "حط ايدي جروب السجل يبدأ ب -100 وارفع البوت والحساب المساعد مشرف الاول",
+        "description": "حط ايدي جروب السجل يبدأ ب -100 وارفع البوت والحساب المساعد مشرف الاول ودوس ستارت للبوت من الحساب المساعد",
         "value": "-100",
         "required": true
       },
       "UPSTREAM_REPO": {
         "description": "لا تغيرهــا",
-        "value": "https://github.com/ALSAROT8754/Zelzal",
+        "value": "https://github.com/Zilzalll/Zelzal",
         "required": true
       },
       "UPSTREAM_BRANCH": {
