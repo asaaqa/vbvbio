@@ -19,7 +19,7 @@ PLAY_COMMAND : ["play", "vplay", "cplay", "/cvplay", "playforce", "vplayforce", 
 PLAY_COMMAND_chh : ["تشغيل", "فيديو"]
 STOP_COMMAND_chh : ["ايقاف"]
 PLAYMODE_COMMAND : ["playmode", "/وضع شغل", "وضع شغل", "/playmode"]
-CHANNELPLAY_COMMAND : ["channelplay", "قناه"]
+CHANNELPLAY_COMMAND : ["/channelplay", "channelplay", "قناه", "ربط"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce", "لايف", "ق لايف"]
 
 #Playlists Command
