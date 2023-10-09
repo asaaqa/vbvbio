@@ -184,8 +184,8 @@ async def get_lang(chat_id: int) -> str:
     if not mode:
         lang = await langdb.find_one({"chat_id": chat_id})
         if not lang:
-            langm[chat_id] = "en"
-            return "en"
+            langm[chat_id] = "ar"
+            return "ar"
         langm[chat_id] = lang["lang"]
         return lang["lang"]
     return mode
@@ -295,19 +295,19 @@ async def commanddelete_on(chat_id: int):
 
 
 # Clean Mode
-async def is_cleanmode_on(chat_id: int) -> bool:
+async def is_cleanmode_off(chat_id: int) -> bool:
     if chat_id not in cleanmode:
         return True
     else:
         return False
 
 
-async def cleanmode_off(chat_id: int):
+async def cleanmode_on(chat_id: int):
     if chat_id not in cleanmode:
         cleanmode.append(chat_id)
 
 
-async def cleanmode_on(chat_id: int):
+async def cleanmode_off(chat_id: int):
     try:
         cleanmode.remove(chat_id)
     except:
