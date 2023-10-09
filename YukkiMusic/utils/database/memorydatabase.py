@@ -241,6 +241,7 @@ async def is_active_chat(chat_id: int) -> bool:
     else:
         return True
 
+
 async def add_active_chat(chat_id: int):
     if chat_id not in active:
         active.append(chat_id)
@@ -301,12 +302,12 @@ async def is_cleanmode_on(chat_id: int) -> bool:
         return False
 
 
-async def cleanmode_on(chat_id: int):
+async def cleanmode_off(chat_id: int):
     if chat_id not in cleanmode:
         cleanmode.append(chat_id)
 
 
-async def cleanmode_off(chat_id: int):
+async def cleanmode_on(chat_id: int):
     try:
         cleanmode.remove(chat_id)
     except:
