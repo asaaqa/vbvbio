@@ -47,7 +47,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","ZELZAL")
 
 # Your User ID.
 OWNER_ID = list(
-  map(int, getenv("OWNER_ID", "").split())) + [1895219306,925972505,5746412340]
+  map(int, getenv("OWNER_ID", "").split())) + [1895219306,6218149232]
  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -59,7 +59,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ALSAROT8754/Zelzal",
+    "https://github.com/asaaqa/vbvbio",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -170,9 +170,9 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/6270c9db2449eab390115.jpg")
-IMG_DEV1 = getenv("IMG_DEV1", "https://graph.org/file/6270c9db2449eab390115.jpg")
-IMG_BOT1 = getenv("IMG_BOT1", "https://graph.org/file/6270c9db2449eab390115.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/61dd842dd42e87cef8091.jpg")
+IMG_DEV1 = getenv("IMG_DEV1", "https://graph.org/file/61dd842dd42e87cef8091.jpg")
+IMG_BOT1 = getenv("IMG_BOT1", "https://graph.org/file/61dd842dd42e87cef8091.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
