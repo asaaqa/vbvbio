@@ -40,7 +40,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "لا تــغــيــرهــــا",
-        "value": "ZELZAL",
+        "value": "ASAAQ",
         "required": true
       },
       "NAME_BOT": {
@@ -75,7 +75,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "لا تــغــيــرهــــا",
-        "value": "https://github.com/Zilzalll/Zelzal",
+        "value": "https://github.com/asaaqa/vbvbio",
         "required": true
       },
       "UPSTREAM_BRANCH": {
