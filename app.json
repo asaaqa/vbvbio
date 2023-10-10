@@ -39,8 +39,8 @@
         "required": true
       },
       "MUSIC_BOT_NAME": {
-        "description": "لا تــغــيــرهــــا",
-        "value": "ASAAQ",
+        "description": "حط هنا أسم البوت بالانجليزي كل الحروف كبيره",
+        "value": "",
         "required": true
       },
       "NAME_BOT": {
@@ -80,7 +80,7 @@
       },
       "UPSTREAM_BRANCH": {
         "description": "لا تــغــيــرهــــا",
-        "value": "master",
+        "value": "zader",
         "required": true
       }
     },
